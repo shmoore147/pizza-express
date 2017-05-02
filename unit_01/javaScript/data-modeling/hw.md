@@ -60,13 +60,31 @@ track of whether tasks have been completed, it will also keep track of
 how long each task took to complete. Tasks can be grouped into 'projects' to
 keep them organized.
 
-> Answer here
+task = {
+  name: "Go to Starbucks",
+  startTime: 9,
+  endTime: 10,
+}
+
 
 ### 2. Photo Sharing App
 
 In this app, users can upload photos to their accounts and share them with others. These photos can be grouped into albums.
+photo = {
+  name:
+  date:
+  URL:
+}
 
-> Answer here
+album = {
+  name:
+  photos:
+}
+user = {
+  username:
+  uploadedPhotos:
+  albumsCreated:
+}
 
 ### 3. Home Automation Manager
 
@@ -75,8 +93,16 @@ track of the time and temperature of the house that it monitors, and use that
 information to turn on and off different lights and adjust the thermostat up
 and down.
 
-> Answer here
+light = {
+  brightness:
+  location:
+  name:
+}
 
+home = {
+  temperature:
+  lights:
+}
 ### 4. Sneaker Store
 
 This app will allow customers to browse a list of products (sneakers, in this
