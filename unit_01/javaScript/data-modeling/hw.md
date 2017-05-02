@@ -109,8 +109,21 @@ This app will allow customers to browse a list of products (sneakers, in this
 case), add those products to a cart, and save that cart as a past order once the
 purchase is complete.
 
-> Answer here
+product = {
+  name:
+  description:
+  price:
+}
 
+orderItem = {
+  product:
+  quantity:
+}
+order = {
+  orderItems:
+  status:
+  date:
+}
 ## Representing Abstractions in Code
 
 Once you've chosen the abstractions that your app will use, the next step is to
@@ -165,7 +178,8 @@ var exampleLine = {
 
 What are some advantages and disadvantages of choosing these representations? Please give at least one example of each.
 
-> Answer here
+A major disadvantage of choosing three representations is that it doesn't store the info that the app was created for (the time it takes to get from one place to another). an advantage is that teach station can be referenced by the name it was given.
+
 
 ### 6. Doctor Appointment App
 
